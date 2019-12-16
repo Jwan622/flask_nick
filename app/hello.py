@@ -1,5 +1,5 @@
 from flask import Flask
-from nicks_code import ComplicatedThing
+from app.services.nicks_code import ComplicatedThing
 from flask import json
 app = Flask(__name__)
 
